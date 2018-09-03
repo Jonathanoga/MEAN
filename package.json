@@ -1,0 +1,22 @@
+{
+  "name": "mean",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node app"
+  },
+  "author": "Jonathan Garcia Acosta",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.*",
+    "body-parser": "^1.*",
+    "cors": "^2.*",
+    "express": "^4.*",
+    "jsonwebtoken": "^8.*",
+    "mongoose": "^5.*",
+    "passport": "^0.*",
+    "passport-jwt": "^4.*"
+  }
+}
